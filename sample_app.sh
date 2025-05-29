@@ -3,6 +3,9 @@ mkdir tempdir
 mkdir tempdir/templates
 mkdir tempdir/static
 
+# Eliminar contenedor previo si existe
+docker rm -f samplerunning 2>/dev/null || true
+
 cp sample_app.py tempdir/.
 cp -r templates/* tempdir/templates/.
 cp -r static/* tempdir/static/.

@@ -25,6 +25,6 @@ docker build -t sampleapp .
 docker run -t -d -p 5050:5050 --name samplerunning sampleapp
 
 #sudo para no tener que crear un usuario de Docker
-sudo docker build -t sampleapp .
-sudo docker run -t -d -p 5050:5050 --name samplerunning sampleapp
-sudo docker ps -a
+#sudo docker build -t sampleapp .
+#sudo docker run -t -d -p 5050:5050 --name samplerunning sampleapp
+#sudo docker ps -a
